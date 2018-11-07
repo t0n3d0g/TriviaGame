@@ -79,7 +79,7 @@ var questionOptions = [
         var counterNum;
         
         function countdown_init() {
-            counterNum = 30;
+            counterNum = 15;
             countdownTrigger();
         }
 
@@ -131,7 +131,7 @@ var questionOptions = [
          // display scared wizard of oz gif for 4 seconds
          $("#triviaHTML").append("<img src='assets/images/sullivan.gif'>");
          // $("#triviaHTML").append("<br>")
-         setTimeout(game, 5000);
+         setTimeout(game, 2000);
         }
     
     // initialize the game
@@ -243,7 +243,7 @@ var questionOptions = [
         
         currentQuestion++;
 
-        setTimeout(game, 5000);
+        setTimeout(game, 2000);
     }
     
     function timesUp() {
