@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-image: url(../images/background.jpeg);
+    background-size: 100%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    padding-top: 25px;
+    font-size: 48px;
+}
+.container {
+    max-width: 960px;
+    background-color: rgba(0, 0, 0, 0.539);
+    padding-bottom: 40px;
+}
+
+
+button {
+    height: 60px;
+    color: red;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 15px; 
+    margin: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+
+#timerHTML {
+    font-size: 18px;
+}
+
+img {
+    padding-bottom: 15px;
+}
